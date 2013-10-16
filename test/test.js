@@ -51,7 +51,7 @@ describe('Webapp generator test', function () {
   });
 
   // note: this test takes a significant amount of time!
-  it('triggers `grunt setup`', function(done) {
+  it.skip('triggers `grunt setup`', function(done) {
     // npm install might take a significant amount of time
     this.timeout(60000);
 
