@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Create an empty Skylark project from scratch.",
   "keywords": [
-    "yeoman-generator", "skylark"
+    "yeoman-generator",
+    "skylark"
   ],
   "homepage": "http://skylark-framework.org/generator-skylark",
   "bugs": "https://github.com/mistaecko/generator-skylark/issues",
@@ -24,6 +25,7 @@
     "yo": ">=1.0.0-rc.1.1"
   },
   "devDependencies": {
+    "mocha": "~1.13.0"
   },
   "engines": {
     "node": ">=0.8.0",
