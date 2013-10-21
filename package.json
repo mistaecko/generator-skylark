@@ -15,7 +15,8 @@
     "url": "git://github.com/mistaecko/generator-skylark.git"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "debug": "node test/debug.js"
   },
   "dependencies": {
     "yeoman-generator": "~0.13.1",
