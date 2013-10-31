@@ -49,7 +49,7 @@ AppGenerator.prototype.h5bp = function h5bp() {
 };
 
 AppGenerator.prototype.assets = function assets() {
-  this.copy('assets/pig.png', 'assets/pig.png');
+  this.copy('assets/skylark.png', 'assets/skylark.png');
 }
 
 AppGenerator.prototype.src = function src() {

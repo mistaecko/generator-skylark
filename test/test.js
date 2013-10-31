@@ -36,7 +36,7 @@ describe('Webapp generator test', function () {
       'robots.txt',
       ['index.html', /<title>temp<\/title>/],
       'main.css',
-      'assets/pig.png',
+      'assets/skylark.png',
       'tools/compile.tsc',
       'tools/server.js',
       'src/Game.ts',

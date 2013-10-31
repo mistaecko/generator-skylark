@@ -17,7 +17,7 @@ import Image = skylark.Image;
       // start loading resources immediately
       var assets = new skylark.PxLoaderAssetManager();
       assets.enqueue('assets/skylark.png');
-      assets.enqueue('assets/pig.png');
+      //assets.enqueue('assets/pig.png');
       assets.loadQueue((ratio, complete)=> {
         assets['complete'] = true;
       });
