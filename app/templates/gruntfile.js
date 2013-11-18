@@ -108,8 +108,8 @@ module.exports = function(grunt) {
                     create_source_map: '<%= buildDir %>/<%= symbol %>-all.min.js.map'
                 },
 
-                dest: '<%= buildDir %>/<%= symbol %>-all.min.js',
-                src: '<%= buildDir %>/<%= symbol %>.js'
+                src: '<%= buildDir %>/<%= symbol %>-all.js',
+                dest: '<%= buildDir %>/<%= symbol %>-all.min.js'
             }
         },
 
@@ -123,8 +123,8 @@ module.exports = function(grunt) {
                 options: {
                     sourceMap: '<%= buildDir %>/<%= symbol %>-all.min.js.map',
                 },
-                src: '<%= buildDir %>/<%= symbol %>.js',
-                dest: '<%= buildDir %>/<%= symbol %>.min.js'
+                src: '<%= buildDir %>/<%= symbol %>-all.js',
+                dest: '<%= buildDir %>/<%= symbol %>-all.min.js'
             },
             single: {
                 options: {
@@ -352,8 +352,9 @@ module.exports = function(grunt) {
         grunt.log.writeln('Commands:');
         grunt.log.writeln('  dist');
         grunt.log.writeln('  server');
-        grunt.log.writeln('  compile[src|test|dist]');
-        grunt.log.writeln('  watch:compile[:all|src]');
+        grunt.log.writeln('  compile:[dist|src|test]');
+        grunt.log.writeln('  watch:dist');
+        grunt.log.writeln('  watch:compile[:dist|src|test]');
     });
 
     grunt.registerTask('default', ['help']);
