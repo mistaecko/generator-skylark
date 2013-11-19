@@ -16,6 +16,7 @@
     "grunt-contrib-concat": "*",
     "grunt-contrib-copy": "*",
     "grunt-contrib-clean": "~0.5.0",
+    "connect": "*",
     "express": "*"
   },
   "engines": {
