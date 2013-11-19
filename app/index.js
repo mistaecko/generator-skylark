@@ -25,6 +25,7 @@ AppGenerator.prototype.askFor = function askFor() {
 
 AppGenerator.prototype.buildfiles = function gruntfile() {
   this.copy('gruntfile.js', 'gruntfile.js');
+  this.copy('gruntfile-config.json.sample', 'gruntfile-config.json.sample');
   this.copy('tools/compile.tsc', 'tools/compile.tsc');
   this.copy('tools/server.js', 'tools/server.js');
 };

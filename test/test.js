@@ -31,6 +31,7 @@ describe('Webapp generator test', function () {
       //['bower.json', /"name": "temp"/],
       ['package.json', /"name": "temp"/],
       ['gruntfile.js'],
+      'gruntfile-config.json.sample',
       'favicon.ico',
       '.editorconfig',
       'robots.txt',
