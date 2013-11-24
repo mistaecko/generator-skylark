@@ -1,6 +1,6 @@
 {
   "name": "generator-skylark",
-  "version": "0.0.6-2",
+  "version": "0.0.6-3",
   "description": "Create an empty Skylark project from scratch.",
   "keywords": [
     "yeoman-generator",
